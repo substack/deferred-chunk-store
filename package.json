@@ -1,7 +1,7 @@
 {
   "name": "deferred-chunk-store",
   "version": "1.0.0",
-  "description": "expose a child store interface to delay providing an implementation",
+  "description": "expose a chunk store interface to delay providing an implementation",
   "main": "index.js",
   "scripts": {
     "test": "tape test/*.js"
