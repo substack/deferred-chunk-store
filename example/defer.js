@@ -3,7 +3,7 @@ var fdstore = require('fd-chunk-store')
 var mkdirp = require('mkdirp')
 
 var store = defstore(9)
-store.put(0, 'whatever\n', function (err) {
+store.put(0, Buffer('whatever\n'), function (err) {
   if (err) console.error(err)
   else console.log('wrote bytes')
 })

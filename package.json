@@ -22,7 +22,9 @@
   "directories": {
     "example": "example"
   },
-  "dependencies": {},
+  "dependencies": {
+    "inherits": "^2.0.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/substack/deferred-chunk-store.git"
