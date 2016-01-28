@@ -1,0 +1,33 @@
+{
+  "name": "deferred-chunk-store",
+  "version": "1.0.0",
+  "description": "expose a child store interface to delay providing an implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "keywords": [
+    "store",
+    "defer",
+    "abstract-chunk-store"
+  ],
+  "author": "substack",
+  "license": "BSD",
+  "devDependencies": {
+    "abstract-chunk-store": "^1.2.0",
+    "mkdirp": "^0.5.1",
+    "tape": "^4.4.0"
+  },
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/substack/deferred-chunk-store.git"
+  },
+  "bugs": {
+    "url": "https://github.com/substack/deferred-chunk-store/issues"
+  },
+  "homepage": "https://github.com/substack/deferred-chunk-store#readme"
+}
