@@ -41,6 +41,22 @@ Present a chunk store interface `store` with `chunkSize`.
 Set the underlying implementation to `otherStore`, sending buffered and future
 operations in order.
 
+## store.put(n, buf, opts={}, cb)
+
+Write a buffer `buf` at chunk index `n`.
+
+## store.get(n, opts={}, cb)
+
+Read a buffer at chunk index `n` as `cb(err, buf)`.
+
+## store.destroy()
+
+Destroy the underlying resource.
+
+## store.close()
+
+Close the underlying resource.
+
 # license
 
 BSD
