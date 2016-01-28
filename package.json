@@ -15,6 +15,7 @@
   "license": "BSD",
   "devDependencies": {
     "abstract-chunk-store": "^1.2.0",
+    "fd-chunk-store": "^1.2.0",
     "mkdirp": "^0.5.1",
     "tape": "^4.4.0"
   },
