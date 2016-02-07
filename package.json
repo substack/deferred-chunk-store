@@ -1,6 +1,6 @@
 {
   "name": "deferred-chunk-store",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "expose a chunk store interface to delay providing an implementation",
   "main": "index.js",
   "scripts": {
