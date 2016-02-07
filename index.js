@@ -4,10 +4,10 @@ var inherits = require('inherits')
 module.exports = Defer
 inherits(Defer, EventEmitter)
 
-function Defer (chunkSize) {
-  if (!(this instanceof Defer)) return new Defer(chunkSize)
+function Defer (chunkLength) {
+  if (!(this instanceof Defer)) return new Defer(chunkLength)
   EventEmitter.call(this)
-  this.chunkSize = chunkSize
+  this.chunkLength = chunkLength
   this._queue = []
 }
 
