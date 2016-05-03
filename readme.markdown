@@ -2,6 +2,8 @@
 
 expose a child store interface to delay providing an implementation
 
+[![abstract chunk store](https://cdn.rawgit.com/mafintosh/abstract-chunk-store/master/badge.svg)](https://github.com/mafintosh/abstract-chunk-store)
+
 This module is similar in spirit to [deferred-leveldown][1]
 
 [1]: https://npmjs.com/package/deferred-leveldown
